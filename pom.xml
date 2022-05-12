@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>es.seonictech.taskmanager</groupId>
+	<artifactId>base-service</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>TaskManagerBaseService</name>
+	<description>A base service with an example implementation</description>
+
+	<properties>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.13.2</version>
+		</dependency>
+
+	</dependencies>
+
+	<!-- <distributionManagement>
+		<snapshotRepository>
+			<id>bytesafe</id>
+			<url>https://irojas.bytesafe.dev/maven/seonictech/</url>
+		</snapshotRepository>
+		<repository>
+			<id>bytesafe</id>
+			<url>https://irojas.bytesafe.dev/maven/seonictech/</url>
+		</repository>
+	</distributionManagement>-->
+
+	<distributionManagement>
+		<snapshotRepository>
+			<id>github</id>
+			<url>https://github.com/irojas91/base-service</url>
+		</snapshotRepository>
+		<repository>
+			<id>github</id>
+			<url>https://github.com/irojas91/base-service</url>
+		</repository>
+	</distributionManagement>
+
+</project>
